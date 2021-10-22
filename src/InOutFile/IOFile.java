@@ -30,7 +30,7 @@ public class IOFile {
     //生成并输出Exercises.txt
     private void createEXEFile(ArrayList txtList){
         try{
-            File exTXT = new File("D:\\Download\\java_idea\\AuthCal\\Exercises.txt");
+            File exTXT = new File("Exercises.txt");
 
             //如果文件已存在，则删除文件
             if (exTXT.exists()) {
@@ -61,7 +61,7 @@ public class IOFile {
      //生成并输出Answer.txt
     private void createAnsFile(ArrayList ansList){
         try{
-            File ansTXT = new File("D:\\Download\\java_idea\\AuthCal\\Answer.txt");
+            File ansTXT = new File("Answer.txt");
 
             //如果文件已存在，则删除文件
             if (ansTXT.exists()) {
